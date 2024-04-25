@@ -4,7 +4,7 @@
 }
 body {
     font-family: 'Mukta', 'Kanit', 'PT Sans', sans-serif;
-    background: #fff url(/img/fundo.png) repeat-x;
+    background: #fff url(../img/fundo.png) repeat-x;
 }
 
 /*////////// Topo ///////////*/
@@ -16,7 +16,7 @@ body {
     margin-top: 10px;
 }
 #logo {
-    background: url(/img/logo.png) no-repeat;
+    background: url(../img/logo.png) no-repeat;
     width: 155px;
     height: 80px;
     float: left;
@@ -26,7 +26,7 @@ body {
 #detalhe {
     width: 170px;
     height: 150px;
-    background: url(/img/detalhe-topo.png) no-repeat right top;
+    background: url(../img/detalhe-topo.png) no-repeat right top;
     float: right;
     margin-right: 350px;
 }
@@ -34,15 +34,16 @@ body {
 .caixa {
     margin: 10px 0;
     padding: 5px;
-    background: #f3f3f3 url(/img/fundo-caixa.png);
+    background: #f3f3f3 url(../img/fundo-caixa.png);
 }
 .caixa-destaque {
     margin: 10px 0;
     padding: 5px;
-    background: #f3f3f3 url(/img/fundo-caixa.png);
+    background: #f3f3f3 url(../img/fundo-caixa.png);
 }
 .caixa-conteudo {
     background: #fff;
+    opacity: 90%;
     margin-top: 5px;
     padding: 5px;
 }
@@ -116,7 +117,7 @@ img.imagem-principal {
     border-bottom: 1px solid #f3f3f3;
 }
 #lateral ul a:hover {
-    background: #f9f9f9 url(/img/marcador.png) no-repeat left center;
+    background: #f9f9f9 url(../img/marcador.png) no-repeat left center;
     color: #a1a1a1;
     padding-left: 30px;
 }
@@ -182,7 +183,7 @@ input.submit {
     list-style: none;
     font-size: 0.9em;
     display: block;
-    padding: 0.5em 1.5em;
+    padding: 0.5em 1.4em;
     line-height: 2.1em;
     font-weight: bold;
 }
